@@ -1,24 +1,24 @@
 # Sleep Easy Backups
-Java program that creates compressed backups for your cloud accounts (Google, Dropbox, OneDrive, etc)
+The program creates compressed backups for cloud accounts (Google, Dropbox, OneDrive, etc)
 
 ## Background
 Imagine the following scenarios: 
-- Someone gets the credentials to your cloud account (Google, Dropbox, OneDrive), deletes all your documents, and empties the trash. 
-- You permanently delete an email, certain that you'll never need it again. A few days later, you realize that you do, in fact, need the email.
-- You need to access a document saved in the cloud, but your cloud provider's website is down and you have no local copy of the document.
+- Someone got the credentials to your cloud account (Google, Dropbox, OneDrive), deleted all your documents, and emptied the trash. 
+- You delete an email, certain that you'll never need it. A few days later, you realize that you need the email.
+- You need to access a document saved in the cloud, but the website is down and you don't have local copy of the document.
 
 What now? 
 
-The best option might be to recover from a physical backup that is stored locally or on a separate cloud account. Unfortunately, many cloud providers do not natively support this sort of backup, and creating them manually can be time-consuming and tedious. This program intends to solve this problem by automating backups for many popular cloud services, allowing users to sleep easy again.
+The best option might be recover from a physical backup that stored locally or on another cloud account. Many cloud providers do not natively support any backup. Sleep Easy Backups intends to solve the problem by automating backups for cloud services, which allowing users to sleep easy.
 
 ----
 
 ## Goal
-- Introduce an intuitive, effective program that requires no technical knowledge to use
+- Introduce an program that don't have technical knowledge requirement to use
 
 ### Features
-- Compressed backups
-- Incremental and full backups
+- Compressed backup
+- Incremental and full backup
 - Option to configure backup schedule
 - Summary and alerts emails
 
@@ -43,4 +43,4 @@ The best option might be to recover from a physical backup that is stored locall
 #### Implement tertiary features
 - [ ] GUI
 - [ ] User configuration
-#### Leverage existing codebase to create an Android App
+#### Create an Android App with exists codebase
